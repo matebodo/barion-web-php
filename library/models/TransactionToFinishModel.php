@@ -1,5 +1,7 @@
 <?php
 
+namespace Barion;
+
 /**
  * Copyright 2016 Barion Payment Inc. All Rights Reserved.
  * <p/>
@@ -50,7 +52,7 @@ class TransactionToFinishModel
             }
         }
     }
-    
+
     public function AddPayeeTransaction(PayeeTransactionToFinishModel $model)
     {
         if ($this->PayeeTransactions == null) {

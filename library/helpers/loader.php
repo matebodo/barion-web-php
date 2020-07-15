@@ -16,6 +16,8 @@
  * limitations under the License.
  */
 
+namespace Barion;
+
 include "iBarionModel.php";
 include "BarionHelper.php";
 

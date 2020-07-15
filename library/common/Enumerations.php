@@ -1,5 +1,7 @@
 <?php
 
+namespace Barion;
+
 abstract class BarionEnvironment
 {
     const Test = "test";
